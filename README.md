@@ -235,7 +235,7 @@ solana config set --url devnet
 solana airdrop 1 // to fund solana token
 ```
 
-#  Deploy the program  
+#  Deploy your program using the following command:
 ```javascript
 solana program deploy target/deploy/nft_certificate.so 
 
@@ -246,9 +246,9 @@ solana program deploy target/deploy/nft_certificate.so
 Program Id: 7QR25bVbaNHHd8xHexdy555SEYh45jm5cV1mwNBHHghg
 ```
 
-# Install require dependency
+# Install Required Dependencies
 ```javascript
-//go to program_client directory
+cd program_client //go to program_client directory
  yarn add @solana/spl-token ts-node
 ```
 
@@ -482,3 +482,30 @@ fs.readFile(path.join(os.homedir(), ".config/solana/id.json")).then((file) =>
 ```javascript
  npx ts-node app.ts program Id  
 ```
+
+# Interacting with the Contract
+
+You can interact with the NFT Certificate Smart Contract
+
+1. **Issue NFT Certificates**
+To issue a new NFT certificate, use the **issueCertificateSendAndConfirm** function, providing details such as course name, student name, and certificate image URL.
+
+2. **Claim NFT Certificates**
+Individuals can claim their issued NFT certificates using the **claimCertificateSendAndConfirm** function by specifying the associated token account and providing necessary authorization.
+
+3. **Transfer NFT Certificates**
+To transfer an NFT certificate to another wallet, use the **transferCertificateSendAndConfirm** function. Make sure to specify the destination wallet and provide authorization.
+
+4. **Burn NFT Certificates**
+NFT certificates can be burned using the **burnCertificateSendAndConfirm** function to permanently remove them from circulation.
+
+# Acknowledgments
+
+[Rise In](https://www.risein.com/)
+[Solana](https://solana.com/)
+[Solana Labs](https://github.com/solana-labs)
+[Codigo](https://docs.codigo.ai/)
+
+<p align="center">
+  Made with ❤️ by Jaydip Patel
+</p>
