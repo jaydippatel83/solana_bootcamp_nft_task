@@ -499,12 +499,11 @@ To transfer an NFT certificate to another wallet, use the **transferCertificateS
 4. **Burn NFT Certificates**
 NFT certificates can be burned using the **burnCertificateSendAndConfirm** function to permanently remove them from circulation.
 
-# Acknowledgments
-
-[Rise In](https://www.risein.com/)
-[Solana](https://solana.com/)
-[Solana Labs](https://github.com/solana-labs)
-[Codigo](https://docs.codigo.ai/)
+**Here are the top resources to learn Solana:**
+[Rise In](https://www.risein.com/)<br><br>
+[Solana](https://solana.com/)<br><br>
+[Solana Labs](https://github.com/solana-labs)<br><br>
+[Codigo](https://docs.codigo.ai/)<br><br>
 
 <p align="center">
   Made with ❤️ by Jaydip Patel
